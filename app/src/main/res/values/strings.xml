@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyTelegram</string>
+    <string name="settings_default_username">Maksimilian Ogorov</string>
+    <string name="settings_default_status">в сети</string>
+    <string name="settings_default_phone_number">+7(981)111-11-11</string>
+    <string name="settings_text_account">Аккаунт</string>
+    <string name="settings_hint_phone_number">Нажмите, чтобы изменить номер телефона</string>
+    <string name="settings_default_login">Maksimilian</string>
+    <string name="settings_hint_login">Имя пользователя</string>
+    <string name="settings_about">О себе</string>
+    <string name="settings_hint_about">Напишите немного о себе</string>
+    <string name="settings_menu_change_name">Изменить имя</string>
+    <string name="settings_menu_exit">Выход</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cd_register_image">register_image</string>
+    <string name="register_enter_code">Введите код</string>
+    <string name="register_we_sent">Мы отправили SMS с кодом проверки на Ваш телефон</string>
+    <string name="register_hint_default">- - - - - -</string>
+    <string name="register_title_your_phone">Ваш телефон</string>
+    <string name="register_toast_enter_phone">Введите номер телефона</string>
+    <string name="register_phone_hint">+7 (---) -- --</string>
+    <string name="settings_hint_input_name">Имя</string>
+    <string name="settings_hint_input_surname">Фамилия</string>
+    <string name="settings_toast_name_is_empty">Имя не может быть пустым</string>
+    <string name="toast_data_update">Данные обновлены</string>
+    <string name="settings_hint_input_username">username</string>
+    <string name="hint_bio">Smth about yourself</string>
+</resources>
