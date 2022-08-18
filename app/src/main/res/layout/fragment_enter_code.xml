@@ -48,10 +48,23 @@
         style="@style/editText"
         android:layout_width="wrap_content"
         android:gravity="center"
-        android:hint="@string/register_hint_default"
+        android:hint="@string/register_hint_default_test"
         android:maxLength="6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_text_we_sent" />
+
+    <TextView
+        android:id="@+id/register_text_hint_code"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text_hint_code"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/text_small"
+        android:layout_margin="@dimen/app_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_input_code" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

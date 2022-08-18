@@ -8,12 +8,24 @@
 
     <EditText
         android:id="@+id/register_input_phone_number"
-        android:hint="@string/register_phone_hint"
         style="@style/editText"
         android:autofillHints=""
+        android:hint="@string/register_phone_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/register_text_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text_hint"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/text_small"
+        android:layout_margin="@dimen/app_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_input_phone_number" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/register_btn_next"

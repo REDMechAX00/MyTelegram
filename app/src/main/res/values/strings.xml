@@ -17,6 +17,7 @@
     <string name="register_enter_code">Введите код</string>
     <string name="register_we_sent">Мы отправили SMS с кодом проверки на Ваш телефон</string>
     <string name="register_hint_default">- - - - - -</string>
+    <string name="register_hint_default_test">123456</string>
     <string name="register_title_your_phone">Ваш телефон</string>
     <string name="register_toast_enter_phone">Введите номер телефона</string>
     <string name="register_phone_hint">+7 (---) -- --</string>
@@ -26,4 +27,10 @@
     <string name="toast_data_update">Данные обновлены</string>
     <string name="settings_hint_input_username">username</string>
     <string name="hint_bio">Smth about yourself</string>
+    <string name="register_text_hint">
+        Для авторизации можно использовать только эти тестовые номера:\n
+        +7 999 000-11-11\n +7 999 000-11-22\n +7 999 000-11-33\n +7 999 000-11-44\n
+        +7 999 000-11-55
+    </string>
+    <string name="register_text_hint_code">Код для тестового входа: 123456</string>
 </resources>

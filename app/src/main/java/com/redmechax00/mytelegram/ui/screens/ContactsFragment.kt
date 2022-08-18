@@ -57,7 +57,7 @@ class ContactsFragment : BaseFragment(R.layout.fragment_contacts) {
                     val contact = it.getCommonModel()
 
                     if(contact.fullname.isEmpty()){ holder.name.text = model.fullname }
-                    else{ holder.name.text = contact.fullname }
+                    else{ holder.name.text = contact.fullname.replace(DATA_SEPARATOR," ") }
 
                     holder.status.text = contact.state
                     holder.photo.downloadAndSetImage(contact.photoUrl)
